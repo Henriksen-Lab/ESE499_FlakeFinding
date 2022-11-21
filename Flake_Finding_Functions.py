@@ -27,3 +27,15 @@ def region(flake_loc_x, flake_loc_y):
                 flake_regions.append("BR")
     
     return flake_regions
+
+# create class of flakes
+class flakes:
+    def __init__(self, image, mag, thickness, l_side, num_flakes, 
+location):
+        self.image = image
+        self.mag = mag
+        self.thickness = thickness
+        self.l_side = l_side
+        self.num_flakes = num_flakes
+        self.location = location
+    
